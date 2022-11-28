@@ -8,6 +8,9 @@ body {
     background-color: #d9dcd6;
 }
 
+/*created header section with formatting got headings and nav bar in place of DIVs*/
+/*removed all Divs*/
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +52,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*created hero class*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +61,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+/*created main section formatting and then classes for the section boxes, headers, and images*/
 main {
     width: 75%;
     display: inline-block;
@@ -91,12 +95,15 @@ main {
     margin-left: 25px;
 }
 
+/*initially removed IDs but then added them back in when i realised they are needed to link from the Nav bar*/
+
 #search-engine-optimization{}
 
 #online-reputation-management{}
 
 #social-media-marketing{}
 
+/*created an aside element with formatting for the sections and images within it*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -123,6 +130,7 @@ aside section img {
     margin: 10px auto;
     max-width: 150px;
 }
+/*created a footer section with formatting*/
 
 footer {
     padding: 30px;
